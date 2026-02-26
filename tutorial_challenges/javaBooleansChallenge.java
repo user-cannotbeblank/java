@@ -1,4 +1,4 @@
-package challenges;
+package tutorial_challenges;
 
 public class javaBooleansChallenge {
     public static void main(String[] args) {

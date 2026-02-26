@@ -1,4 +1,4 @@
-package challenges;
+package tutorial_challenges;
 
 public class javaSwitchChallenge {
     public static void main(String[] args) {

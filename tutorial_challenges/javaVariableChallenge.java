@@ -1,4 +1,4 @@
-package challenges;
+package tutorial_challenges;
 
 public class javaVariableChallenge {
     public static void main(String[] args) {

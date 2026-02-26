@@ -1,4 +1,4 @@
-package challenges;
+package tutorial_challenges;
 
 public class javaOutputChallenge {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package challenges;
+package tutorial_challenges;
 
 public class javaStringsChallenge {
     public static void main(String[] args) {

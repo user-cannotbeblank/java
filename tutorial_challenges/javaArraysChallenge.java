@@ -1,4 +1,4 @@
-package challenges;
+package tutorial_challenges;
 
 /*
 Inside main(), complete the following steps:
