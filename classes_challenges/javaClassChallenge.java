@@ -4,14 +4,24 @@ public class javaClassChallenge {
     String city; // Initializes the city string.
     int population; // Initializes the population integer.
 
-    public javaClassChallenge() {
-        city = "London";
-        population = 9000000;
+    // Constructor, 2 parameters
+    public javaClassChallenge(int population, String city) { 
+        // Using 'this' to assign values to class variables
+         this.population = population;
+         this.city = city;
+    }
+
+    public void printInfo() {
+        System.out.println("City: " + city + "\n" + "Population: " + population);
     }
 
     public static void main(String[] args) {
-        javaClassChallenge myObj = new javaClassChallenge(); // Instantiates the javaClassChallenge class and create myObj object.
-        System.out.println(myObj.city); // Prints the value of the city variable for the myObj object.
-        System.out.println(myObj.population); // Prints the value of the population variable for the myObj object.
+        // Constructor: city1.
+        javaClassChallenge city1 = new javaClassChallenge(9000000, "London");
+        // Constructor: city2
+        javaClassChallenge city2 = new javaClassChallenge(8480000, "New York");
+
+        city1.printInfo();
+        city2.printInfo();
     }
 }
